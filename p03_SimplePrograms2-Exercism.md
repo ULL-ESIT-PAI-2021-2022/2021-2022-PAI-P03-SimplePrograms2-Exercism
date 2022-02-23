@@ -4,7 +4,7 @@
 ### Objetivos
 Los objetivos de esta práctica son:
 * Conocer y configurar el entorno de trabajo de Exercism
-* Ser capaz de realizar programas simples en JavaScript en el entorno Linux de la VM de la asignatura usando
+* Ser capaz de desarrollar programas simples en JavaScript en el entorno Linux de la VM de la asignatura usando
   Node.js
 
 ### Rúbrica de evaluacion del ejercicio
@@ -22,7 +22,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 [Exercism](https://exercism.io/) 
 es una plataforma orientada a aprender a programar o también a mejorar las
 capacidades de cualquier programadora.
-El objetivo de Exercism es servir como medio para aprender a programar en un determinado lenguaje, y para ello se propone
+El objetivo de la plataforma es servir como medio para aprender a programar en un determinado lenguaje, y para ello se propone
 hacerlo mediante la resolución de ejercicios que otros usuarios han planteado. 
 Lo que se persigue es que tanto quien resuelve el problema como quien lo planteó aprendan al mismo tiempo. 
 Además, la interacción con el resto de la comunidad podrá llevar a debates para determinar cuál sería la mejor solución para un determinado problema.
@@ -30,7 +30,7 @@ Además, la interacción con el resto de la comunidad podrá llevar a debates pa
 La plataforma se basa en una una aplicación de línea de comandos disponible para diferentes sistemas
 operativos (Linux, Mac, Windows).
 Usando esa aplicación, un usuario puede descargar una serie de ejercicios de programación disponibles en la
-plataforma y realizar los correspondientes programas hasta que consiga pasar los diferentes tests que se
+plataforma y realizar los correspondientes programas hasta que consiga pasar los diferentes tests unitarios que se
 suministran con cada ejercicio.
 
 La plataforma puede ser usada en "modo práctica", en cuyo caso no existe la opción de mentorización (solicitar
@@ -44,12 +44,16 @@ Una vez disponga de una cuenta, configure lo básico de la misma y elija un "tra
 desee practicar.
 Obviamente se propone que elija el track correspondiente a JavaScript++.
 
-Propóngase a continuación resolver el problema "Hello World".
-En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que indica *Get started* y 
-[Begin walk-through](https://exercism.io/cli-walkthrough).
-Si sigue ese enlace le llevará a la página *Welcome to the Exercism installation guide!* con instrucciones
-sobre cómo instalar `exercism`.
-En este documento se propone instalarla en la máquina virtual Linux de la asignatura.
+Propóngase a continuación resolver el problema 
+["Hello World"](https://exercism.org/tracks/javascript/exercises/hello-world).
+En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que indica 
+[Learn more about solving exercises locally](https://exercism.org/docs/using/solving-exercises/working-locally).
+Si sigue ese enlace le llevará a la página *Working Locally* que explica cómo trabajar con la plataforma en su
+máquina local.
+Desde esa página (*Installing the CLI*) se accede al enlace
+[Welcome to the Exercism installation guide!](https://exercism.org/cli-walkthrough)
+donde hallará instrucciones sobre cómo instalar `Exercism` en su máquina.
+En este documento se propone instalarla en la máquina virtual de la asignatura.
 Eligiendo la opción *Linux* y a continuación la opción *Using snap* se le pedirá que ejecute
 ```
 $ sudo snap install exercism
@@ -65,17 +69,17 @@ Si quiere Ud. saber más sobre `snap` puede consultar
 [esta referencia](https://snapcraft.io/docs/getting-started),
 aunque ello no es necesario para el trabajo que se propone realizar con Exercism.
 
-Una vez instalada la aplicación `exercism` el siguiente paso es configurar la interfaz de comandos (CLI) de la
-aplicación.
-Para ello se pide que se ejecute el comando
+Una vez instalada la aplicación `exercism` el siguiente paso es configurar su interfaz de comandos (CLI).
+Para ello se pide que se ejecute:
 ```
 $ exercism configure --token=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
-donde el *token* que figura en el comando anterior se encuentra (es específico de cada usuario) en la [página
-de configuración](https://exercism.io/my/settings) de la cuenta de usuario que se ha creado.
+donde el *token* que figura en el comando anterior se encuentra (es específico de cada usuario) en la 
+[página de configuración](https://exercism.io/my/settings) 
+de la cuenta de usuario que se ha creado.
 Basta copiar de esa página el token y colocarlo en el comando anterior.
 
-El comando anterior, una vez ejecutado indica:
+El comando una vez ejecutado indica:
 ```
 You have configured the Exercism command-line client:
 
@@ -85,12 +89,12 @@ Workspace:     (-w, --workspace)  /home/usuario/snap/exercism/5/exercism
 API Base URL:  (-a, --api)        https://api.exercism.io/v1
 ```
 A continuación se puede elegir un problema para pasar a resolverlo.
-Se propone, como ya se ha dicho, elegir el problema "Hello World".
-En la página de ese problema figura una descripción precisa del problema planteado y en la parte derecha de
+Se propone, como ya se ha dicho, elegir el problema 
+["Hello World"](https://exercism.org/tracks/javascript/exercises/hello-world).
+En la página de ese problema figura una descripción precisa del problema y en la parte derecha de
 esa página figuran las instrucciones para:
 * Download. Descargar el problema mediante el comando `exercism download --exercise=hello-world --track=javascript`
-* Solve. Para resolver el problema se propone usar el editor favorito del usuario. Se recomienda usar Visual
-  Studio Code
+* Solve. Para resolver el problema se propone usar Visual Studio Code
 * Submit. El comando para subir a la plataforma la solución que el usuario proponga.
 
 Si se ejecuta el comando para descargar el problema el sistema responde:
