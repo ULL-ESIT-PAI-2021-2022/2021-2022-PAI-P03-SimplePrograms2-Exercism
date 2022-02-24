@@ -221,6 +221,9 @@ export const twoFer = () => {
 };
 ```
 
+[Collatz Conjecture](https://exercism.org/tracks/javascript/exercises/collatz-conjecture)
+es otro ejercicio que no debiera costarle resolver puesto que ya lo ha resuelto en Jutge.
+
 [Esta página](https://exercism.org/tracks/javascript/concepts) 
 de Exercism muestra un posible itinerario de aprendizaje que podría Ud. seguir para ganar experiencia con
 Javascript.
