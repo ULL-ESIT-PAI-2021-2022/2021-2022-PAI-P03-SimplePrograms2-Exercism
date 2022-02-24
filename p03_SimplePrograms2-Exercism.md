@@ -121,13 +121,12 @@ Edite ese fichero hasta que considere que tiene una versión operativa.
 Si se analizan los tests del problema *Hello World* que figuran en el fichero `hello-world.spec.js`
 se observa que la función que los test evalúan es `hello()`.
 
-En la plantilla que Exercism ofrece para la función, ésta se implementa como una 
-[arrow function](https://javascript.info/arrow-functions-basics):
+En la plantilla que Exercism ofrece para la función, ésta se implementa como:
 
 ```js
-export const hello = () => {
-  // Place your code here
-};
+export function hello() {
+  return 'Goodbye, Mars!';
+}
 ```
 
 Además de la función que evalúan los tests (`hello()` en el caso de este problema) puede Ud. usar cuantas
@@ -158,6 +157,7 @@ Para poder ejecutar los programas de Exercism con la sintaxis de módulos de ES6
 es un 
 [transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)
 de Javascript. 
+d
 Babel se suele utilizar para escribir código JS con características modernas que pudieran no estar
 contempladas en NodeJS, como ocurre con la sintaxis ES6 para módulos.
 
