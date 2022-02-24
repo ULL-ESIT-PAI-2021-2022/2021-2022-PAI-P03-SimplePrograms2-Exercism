@@ -223,6 +223,8 @@ export const twoFer = () => {
 
 [Collatz Conjecture](https://exercism.org/tracks/javascript/exercises/collatz-conjecture)
 es otro ejercicio que no debiera costarle resolver puesto que ya lo ha resuelto en Jutge.
+Para cubrir los objetivos de esta práctica, resuelva al menos 5 problemas de la plataforma aparte de los
+anteriores.
 
 [Esta página](https://exercism.org/tracks/javascript/concepts) 
 de Exercism muestra un posible itinerario de aprendizaje que podría Ud. seguir para ganar experiencia con
@@ -233,16 +235,11 @@ más complejos.
 ## Ejercicios de Jutge
 Desarrolle programas que solucionen los siguientes problemas:
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+1. [P11916](https://jutge.org/problems/P11916_en) Approximation of e
+2. [P67268](https://jutge.org/problems/P67268_en) Reverse of sequences
+3. [P50497](https://jutge.org/problems/P50497_en) Is Palindrome
+4. [P76024](https://jutge.org/problems/P76024_en) Sum of fractions
+5. [P17179](https://jutge.org/problems/P17179_en) Statistical measures
 
 ## Referencias
 * [Exercism](https://exercism.io/)
