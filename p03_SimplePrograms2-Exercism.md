@@ -107,6 +107,10 @@ Downloaded to
 indicando el directorio donde ha colocado el código necesario para trabajar en ese problema.
 
 Revise los ficheros que exercism ha descargado.
+En particular el fichero `HELP.md` contiene instrucciones sobre cómo instalar las dependencias del proyecto usando `npm` o 
+[yarn](https://yarnpkg.com/)
+(otro gestor de paquetes para JS), la forma de pasar los tests del problema 
+e instrucciones sobre cómo enviar una solución a la plataforma.
 
 ## Solución del ejercicio
 
