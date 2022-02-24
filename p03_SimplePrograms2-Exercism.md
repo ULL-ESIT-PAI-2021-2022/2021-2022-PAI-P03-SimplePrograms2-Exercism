@@ -131,13 +131,14 @@ export function hello() {
 
 Además de la función que evalúan los tests (`hello()` en el caso de este problema) puede Ud. usar cuantas
 otras funciones crea conveniente.
-La solución no tiene porqué aportarse en una única función (depende de la complejidad del programa).
+La solución de un determinado problema de Exercism no tiene porqué basarse en una única función (depende de la complejidad del programa).
 El módulo que contiene la solución (fichero `hello-world.js`) solo exporta (de ahí la sentencia `export`)
 hacia otros módulos las funciones necesarias para evaluar los tests.
 
 Para los módulos, Exercism utiliza 
 [sintaxis ES6](https://eloquentjavascript.net/10_modules.html#h_hF2FmOVxw7)
-mientras que NodeJS utiliza sintaxis CommonJS.
+mientras que NodeJS utiliza sintaxis 
+[CommonJS](https://eloquentjavascript.net/10_modules.html#h_N33QHgUxbG).
 Es por ello que el programa que se realice no puede ejecutarse directamente en node.
 Si se ejecuta, en el caso del problema *Hello World* con Node se obtiene un error:
 
