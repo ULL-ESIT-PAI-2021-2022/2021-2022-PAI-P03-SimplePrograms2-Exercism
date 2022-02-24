@@ -18,7 +18,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 * El alumnado ha de acreditar que es capaz de editar ficheros de forma remota en su VM usando Visual Studio
   Code (VSC)
 
-### Exercism
+## Exercism
 [Exercism](https://exercism.io/) 
 es una plataforma orientada a aprender a programar o también a mejorar las
 capacidades de cualquier programadora.
@@ -37,7 +37,7 @@ La plataforma puede ser usada en "modo práctica", en cuyo caso no existe la opc
 que una experta le ayude con sus ejercicios), pero aún
 así merece la pena practicar los múltiples ejercicios que hallará en la plataforma.
 
-## Primeros pasos en Exercism
+### Primeros pasos en Exercism
 Comience por [registrarse en Exercism](https://exercism.io/users/sign_up). 
 usando su cuenta de GitHub.
 Una vez disponga de una cuenta, configure lo básico de la misma y elija un "track" (un lenguaje) en el que
@@ -112,7 +112,7 @@ En particular el fichero `HELP.md` contiene instrucciones sobre cómo instalar l
 (otro gestor de paquetes para JS), la forma de pasar los tests del problema 
 e instrucciones sobre cómo enviar una solución a la plataforma.
 
-## Solución del ejercicio
+### Solución del ejercicio
 
 El siguiente paso consiste en editar el programa (en el caso del problema *Hello World* el fichero a editar es
 `hello-world.js`).
@@ -181,7 +181,7 @@ A partir de este punto se debiera desarrollar de forma incremental la solución 
 puede usar `console.log()` para evaluar provisionalmente la corrección de los resultados que se están
 obteniendo.
 
-## Ejecución de los tests para un determinado problema
+### Ejecución de los tests para un determinado problema
 Una vez finalizado su programa, el siguiente paso consiste en pasar (superar) los tests del código.
 Cada ejercicio de Exercism va acompañado de una serie de tests que el programa debe superar para ser
 considerado válido.
@@ -230,7 +230,7 @@ Javascript.
 Los diferentes programas de la plataforma se van desbloqueando conforme va Ud. resolviendo problemas cada vez
 más complejos.
 
-### Ejercicios de Jutge
+## Ejercicios de Jutge
 Desarrolle programas que solucionen los siguientes problemas:
 
 1. 
@@ -244,7 +244,7 @@ Desarrolle programas que solucionen los siguientes problemas:
 9. 
 10. 
 
-### Referencias
+## Referencias
 * [Exercism](https://exercism.io/)
 * [JavaScript Fundamentals](https://javascript.info/first-steps)
 * [PAI Code Examples](https://github.com/ULL-ESIT-PAI-2021-2022/PAI-class-code-examples/tree/master/src)
