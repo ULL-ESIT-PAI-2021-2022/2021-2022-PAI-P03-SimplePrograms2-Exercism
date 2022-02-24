@@ -42,7 +42,7 @@ Comience por [registrarse en Exercism](https://exercism.io/users/sign_up).
 usando su cuenta de GitHub.
 Una vez disponga de una cuenta, configure lo básico de la misma y elija un "track" (un lenguaje) en el que
 desee practicar.
-Obviamente se propone que elija el track correspondiente a JavaScript++.
+Obviamente se propone que elija el track correspondiente a JavaScript.
 
 Propóngase a continuación resolver el problema 
 ["Hello World"](https://exercism.org/tracks/javascript/exercises/hello-world).
