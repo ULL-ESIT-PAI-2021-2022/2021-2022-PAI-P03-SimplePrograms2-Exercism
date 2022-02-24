@@ -158,20 +158,24 @@ Para poder ejecutar los programas de Exercism con la sintaxis de módulos de ES6
 es un 
 [transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler)
 de Javascript. 
-d
 Babel se suele utilizar para escribir código JS con características modernas que pudieran no estar
 contempladas en NodeJS, como ocurre con la sintaxis ES6 para módulos.
 
-Para instalar `babel-node`:
-```
-npm install --save-dev @babel/node
-```
-
-y una vez instalado se pueden ejecutar los programas JS usando `npx`:
-
+El fichero `package.json` del proyecto Hello World de Exercism ya contempla la dependencia de Babel, de modo
+que el paquete habrá sido instalado para el proyecto, de modo que el programa puede ejecutarse usando:
 ```
 npx babel-node hello-world.js
 ```
+
+pero previamente habrá que incluir la línea 
+```
+{
+
+  "type": "module"
+
+}
+```
+en el fichero `package.json` para permitir la carga de módulos ES6.
 
 A partir de este punto se debiera desarrollar de forma incremental la solución del problema planteado y se
 puede usar `console.log()` para evaluar provisionalmente la corrección de los resultados que se están
