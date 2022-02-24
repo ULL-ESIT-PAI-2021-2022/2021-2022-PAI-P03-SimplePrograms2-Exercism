@@ -208,6 +208,25 @@ https://exercism.io/my/solutions/xxxx
 A partir de este punto puede ya ver las soluciones que otras usuarias hayan dado al mismo problema o bien
 avanzar con otros problemas de ese mismo "track".
 
+### Ejercicios de Exercism
+Desarrolle a partir de este punto todos los ejercicios de Exercism que sea capaz.
+Siga por ejemplo con el conocido problema
+[Two Fer](https://exercism.org/tracks/javascript/exercises/two-fer)
+(*Two for one*).
+En este caso la función que hay que codificar es una
+[arrow function](https://javascript.info/arrow-functions-basics):
+```js
+export const twoFer = () => {
+  throw new Error('Remove this statement and implement this function');
+};
+```
+
+[Esta página](https://exercism.org/tracks/javascript/concepts) 
+de Exercism muestra un posible itinerario de aprendizaje que podría Ud. seguir para ganar experiencia con
+Javascript.
+
+
+
 ### Ejercicios de Jutge
 Desarrolle programas que solucionen los siguientes problemas:
 
