@@ -224,8 +224,8 @@ export const twoFer = () => {
 [Esta página](https://exercism.org/tracks/javascript/concepts) 
 de Exercism muestra un posible itinerario de aprendizaje que podría Ud. seguir para ganar experiencia con
 Javascript.
-
-
+Los diferentes programas de la plataforma se van desbloqueando conforme va Ud. resolviendo problemas cada vez
+más complejos.
 
 ### Ejercicios de Jutge
 Desarrolle programas que solucionen los siguientes problemas:
