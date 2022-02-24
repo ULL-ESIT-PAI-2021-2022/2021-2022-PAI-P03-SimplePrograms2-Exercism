@@ -209,8 +209,7 @@ A partir de este punto puede ya ver las soluciones que otras usuarias hayan dado
 avanzar con otros problemas de ese mismo "track".
 
 ### Ejercicios de Exercism
-Desarrolle a partir de este punto todos los ejercicios de Exercism que sea capaz.
-Siga por ejemplo con el conocido problema
+Siga a continuación con el conocido problema
 [Two Fer](https://exercism.org/tracks/javascript/exercises/two-fer)
 (*Two for one*).
 En este caso la función que hay que codificar es una
@@ -223,14 +222,15 @@ export const twoFer = () => {
 
 [Collatz Conjecture](https://exercism.org/tracks/javascript/exercises/collatz-conjecture)
 es otro ejercicio que no debiera costarle resolver puesto que ya lo ha resuelto en Jutge.
-Para cubrir los objetivos de esta práctica, resuelva al menos 5 problemas de la plataforma aparte de los
-anteriores.
 
 [Esta página](https://exercism.org/tracks/javascript/concepts) 
 de Exercism muestra un posible itinerario de aprendizaje que podría Ud. seguir para ganar experiencia con
 Javascript.
 Los diferentes programas de la plataforma se van desbloqueando conforme va Ud. resolviendo problemas cada vez
 más complejos.
+
+Para cubrir los objetivos de esta práctica, resuelva al menos **5 problemas de la plataforma** aparte de los
+anteriores y a partir de ese punto, desarrolle todos los ejercicios de Exercism que sea capaz.
 
 ## Ejercicios de Jutge
 Desarrolle programas que solucionen los siguientes problemas:
