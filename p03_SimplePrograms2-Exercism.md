@@ -220,6 +220,11 @@ export const twoFer = () => {
 };
 ```
 
+La plantilla que proporciona Exercism para esta función, lanza un error utilizando el operador
+[Throw](https://javascript.info/try-catch#throw-operator).
+Esta primera versión puede ser útil para aprender cómo lanzar una excepción en un programa Javascript, que
+sería la forma más adecuada de abortar su ejecución ante una situación de error.
+
 [Collatz Conjecture](https://exercism.org/tracks/javascript/exercises/collatz-conjecture)
 es otro ejercicio que no debiera costarle resolver puesto que ya lo ha resuelto en Jutge.
 
